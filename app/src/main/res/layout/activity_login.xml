@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="28dp"
+    android:background="#F0F4F8">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="🌱 AGRO-CONNECT IoT"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#1B5E20"
+        android:layout_marginBottom="4dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Control Industrial - ISO 27400"
+        android:textSize="13sp"
+        android:textColor="#546E7A"
+        android:layout_marginBottom="32dp"/>
+
+    <EditText
+        android:id="@+id/campoUsuario"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:hint="Operador "
+        android:textColor="#000000"
+        android:textColorHint="#757575"
+        android:inputType="text"
+        android:background="#FFFFFF"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/campoClave"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:hint="Contraseña "
+        android:textColor="#000000"
+        android:textColorHint="#757575"
+        android:inputType="textPassword"
+        android:background="#FFFFFF"
+        android:padding="12dp"
+        android:layout_marginBottom="24dp"/>
+
+    <Button
+        android:id="@+id/botonEntrar"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:text="INICIAR SESIÓN"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:backgroundTint="#2E7D32"
+        android:textColor="#FFFFFF"/>
+
+</LinearLayout>
